@@ -18,7 +18,7 @@ Modul til måling af temperatur ved hjælp af en NTC modstand. Sensoren fungerer
 
 Måleområde: -55C til 125C (præcision 0,5C)
 
-## KY015 - DHT11 modul - Temperatur og fugtsensor
+## KY-015 - DHT11 modul - Temperatur og fugtsensor
 <img style="width: 250px;" src="https://user-images.githubusercontent.com/44589560/159478693-a7192797-6237-43ae-9066-d5c6f26141f4.png" />
 
 Modul med den populære digitale temperatur og fugtsensor DHT11. Sensoren sender en seriel strøm af data med målinger der kan udlæses af en mikrocontroller. Eksempelkode kan downloades her på produktsiden.
