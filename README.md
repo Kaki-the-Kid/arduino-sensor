@@ -13,7 +13,6 @@ Måleområde: -55C til 125C (0,5C præcision)
 
 ## KY-013 - NTC Temperatursensor modul
 <img style="width: 250px;" src="https://user-images.githubusercontent.com/44589560/159478471-6eaa5afd-fb33-40ac-b09e-c0386f5b2c71.png" />
-
 Modul til måling af temperatur ved hjælp af en NTC modstand. Sensoren fungerer ved at NTC modstanden ændrer værdi efter temperaturen, og denne modstand kan måles ved hjælp af Arduino.
 
 Måleområde: -55C til 125C (præcision 0,5C)
