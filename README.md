@@ -4,17 +4,15 @@ Der er flere sensor som vi kan bruge i vores projekter. Delprojekterne er delt i
 
 ## KY-001 - DS18B20 modul - Temperatur sensor
 
-<img style="max-width: 250px;" src="https://user-images.githubusercontent.com/44589560/159477810-7157471c-8078-49c3-9eb7-b610ace5e9e4.png" />
+<img style="width: 250px;" src="https://user-images.githubusercontent.com/44589560/159477810-7157471c-8078-49c3-9eb7-b610ace5e9e4.png" />
+<img style="width: 250px;" src="https://user-images.githubusercontent.com/44589560/159478563-a4d94f75-5fce-440e-9012-1dd8427316e7.png" />
+
 Digital temperatursensor der sender målinger ud på en bus-forbindelse som kan opfanges af mikrocontrollere. Hver temperatursensor har en unik adresse, så flere sensorer kan kobles på den samme Arduino indgang.
 
 Måleområde: -55C til 125C (0,5C præcision)
 
-Findes også i andre moduler
-![image](https://user-images.githubusercontent.com/44589560/159478563-a4d94f75-5fce-440e-9012-1dd8427316e7.png)
-
-
 ## KY-013 - NTC Temperatursensor modul
-<img style="max-width: 250px;" src="https://user-images.githubusercontent.com/44589560/159478471-6eaa5afd-fb33-40ac-b09e-c0386f5b2c71.png" />
+<img style="width: 250px;" src="https://user-images.githubusercontent.com/44589560/159478471-6eaa5afd-fb33-40ac-b09e-c0386f5b2c71.png" />
 
 Modul til måling af temperatur ved hjælp af en NTC modstand. Sensoren fungerer ved at NTC modstanden ændrer værdi efter temperaturen, og denne modstand kan måles ved hjælp af Arduino.
 
