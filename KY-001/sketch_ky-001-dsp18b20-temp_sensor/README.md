@@ -19,7 +19,7 @@ CONNECTION DIAGRAM
 Connect the power line (middle) and ground (-) on the module to +5V and GND on the Arduino respectively. Connect the signal pin (S) to pin 2 on the Arduino.
 
 | KY-001 | Arduino |
-|++++++++|+++++++++|
+| ++++++ | +++++++ |
 | S      |Pin 2    |
 | middle |	+5V    |
 | –	     |GND      |
