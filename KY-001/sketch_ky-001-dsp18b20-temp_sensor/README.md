@@ -20,9 +20,9 @@ Connect the power line (middle) and ground (-) on the module to +5V and GND on t
 
 | KY-001 | Arduino |
 | ++++++ | +++++++ |
-| S      |Pin 2    |
-| middle |	+5V    |
-| –	     |GND      |
+| S      | Pin 2   |
+| middle | +5V     |
+| –	     | GND     |
 
 ![image](https://user-images.githubusercontent.com/44589560/159487143-65ef6be7-3720-44ed-8d7d-61bf66c52c95.png)
 
