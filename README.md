@@ -4,8 +4,9 @@ Der er flere sensor som vi kan bruge i vores projekter. Delprojekterne er delt i
 
 ## KY-001 - DS18B20 modul - Temperatur sensor
 
-<img style="width: 250px;" src="https://user-images.githubusercontent.com/44589560/159477810-7157471c-8078-49c3-9eb7-b610ace5e9e4.png" />
-<img style="width: 250px;" src="https://user-images.githubusercontent.com/44589560/159478563-a4d94f75-5fce-440e-9012-1dd8427316e7.png" />
+| <img style="width: 250px;" src="https://user-images.githubusercontent.com/44589560/159477810-7157471c-8078-49c3-9eb7-b610ace5e9e4.png" /> | 
+<img style="width: 250px;" src="https://user-images.githubusercontent.com/44589560/159478563-a4d94f75-5fce-440e-9012-1dd8427316e7.png" /> |
+
 Digital temperatursensor der sender målinger ud på en bus-forbindelse som kan opfanges af mikrocontrollere. Hver temperatursensor har en unik adresse, så flere sensorer kan kobles på den samme Arduino indgang.
 
 Måleområde: -55C til 125C (0,5C præcision)
