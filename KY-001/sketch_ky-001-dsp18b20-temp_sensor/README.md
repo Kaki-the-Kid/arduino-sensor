@@ -31,7 +31,7 @@ The following Arduino sketch will use the OneWire library to communicate seriall
 
 Links to the required libraries can be found on the Downloads section below.
 
-´´´c++
+```c++
 #include <OneWire.h>
 #include <DallasTemperature.h>
 
@@ -63,4 +63,4 @@ void loop(void)
   Serial.print("Temperature for Device 1 is: ");
   Serial.print(sensors.getTempCByIndex(0)); // Why "byIndex"? You can have more than one IC on the same bus. 0 refers to the first IC on the wire
 }
-´´´
+```
