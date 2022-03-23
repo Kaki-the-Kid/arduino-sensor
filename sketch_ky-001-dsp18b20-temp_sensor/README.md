@@ -8,7 +8,12 @@ Compatible with popular electronics platforms like Arduino, Raspberry Pi and ESP
 | ![image](https://user-images.githubusercontent.com/44589560/159486603-f9657810-b704-4954-a544-0509e348b212.png) |
 
 ## KY-001 Specifikationer
-This module consists of a DS18B20 single-bus digital temperature sensor, an LED, a resistor and 3 male header pins.
+This module consists of a DS18B20 single-bus digital temperature sensor, an LED, a resistor and 3 male header pins.<br />
+
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
 
 | Operating Voltage             |	3.0V to 5.5V                      | 
 | Temperature Measurement Range |	-55°C to 125°C (-57°F to 257°F)   | 
