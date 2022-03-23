@@ -35,10 +35,11 @@ int buttonState13 = 0;
  
 // initialize the library by associating any needed LCD interface pin
 // with the arduino pin number it is connected to
-const int rs = 12, en = 11, d4 = 5, d5 = 4, d6 = 3, d7 = 2;
+const int rs = 12, en = 11, d4 = 5, d5 = 4, d6 = 3, d7 = 7;
 LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 
 int offsetTime = 0;
+int temp_pos = 11;
 
 
 
@@ -47,27 +48,28 @@ void setup(void)
   // Init display
   lcd.cursor();
   lcd.blink();
-  //lcd.begin(16, 2);          // set up the LCD's number of columns and rows:
-  //lcd.print("Temperatur"); // Print a message to the LCD.
+  lcd.begin(16, 2);          // set up the LCD's number of columns and rows:
+  lcd.print("Temperatur"); // Print a message to the LCD.
   
   
-  //Serial.begin(9600);// start serial port
-  //Serial.println("Dallas Temperature IC Control Library Demo");
+  Serial.begin(9600);// start serial port
+  Serial.println("Dallas Temperature IC Control Library Demo");
   
   // Start up the library
-  //sensors.begin(); // IC Default 9 bit. If you have troubles consider upping it 12. Ups the delay giving the IC more time to process the temperature measurement
+  sensors.begin(); // IC Default 9 bit. If you have troubles consider upping it 12. Ups the delay giving the IC more time to process the temperature measurement
 }
 
 void loop(void)
 { 
   // call sensors.requestTemperatures() to issue a global temperature 
   // request to all devices on the bus
-  //Serial.print("Requesting temperatures...");
-  //sensors.requestTemperatures(); // Send the command to get temperatures
-  //Serial.println("DONE");
-  //Serial.print("Temperature for Device 1 is: ");
-  //Serial.print(sensors.getTempCByIndex(0)); // Why "byIndex"? You can have more than one IC on the same bus. 0 refers to the first IC on the wire
+  Serial.println("Requesting temperatures...\n");
+  sensors.requestTemperatures(); // Send the command to get temperatures
+  Serial.println("DONE");
+  Serial.print("Temperature for Device 1 is: ");
+  Serial.print(sensors.getTempCByIndex(0)); // Why "byIndex"? You can have more than one IC on the same bus. 0 refers to the first IC on the wire
 
-  //lcd.setCursor(0, 1); // set the cursor to column 0, line 1
-  //lcd.print( sensors.getTempCByIndex(0) );
+  lcd.setCursor(0, 1); // set the cursor to column 0, line 1
+  lcd.print( sensors.getTempCByIndex(0) );
+  delay(3000);
 }
