@@ -37,7 +37,9 @@ The DHT11 measures relative humidity. The relative humidity is the amount of wat
 The saturation point changes with air temperature. Cold air can hold less water vapor before it becomes saturated, and hot air can hold more water vapor before it becomes saturated.
 
 The formula to calculate relative humidity is:
- ![image](https://user-images.githubusercontent.com/44589560/159673751-cfd97070-0a9f-4788-a663-b406d798d313.png)
+
+![image](https://user-images.githubusercontent.com/44589560/159673751-cfd97070-0a9f-4788-a663-b406d798d313.png)
+
 
 The relative humidity is expressed as a percentage. At 100% RH, condensation occurs, and at 0% RH, the air is completely dry.
 
