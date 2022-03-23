@@ -19,6 +19,8 @@ Connect module power line (middle) and ground (-) to 5V and GND on the Arduino r
 
 Some KY-013 have a different pin arrangement. Please check your board before connecting.
 
+| Syntax      | Description |
+| ----------- | ----------- |
 | KY-013 | Arduino |
 | S      | A0      |
 | middle | 5V      |
