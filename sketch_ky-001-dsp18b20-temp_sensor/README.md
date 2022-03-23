@@ -13,12 +13,10 @@ This module consists of a DS18B20 single-bus digital temperature sensor, an LED,
 | Syntax      | Description |
 | ----------- | ----------- |
 | Operating Voltage      | 3.0V to 5.5V       |
-| Paragraph   | Text        |
+| Temperature Measurement Range   | -55°C to 125°C (-57°F to 257°F)        |
+| Measurement Accuracy Range   | ±0.5°C        |
+| Board Dimensions   | 18.5mm x 15mm (0.728in x 0.591in)        |
 
-|              |	                      | 
-| Temperature Measurement Range |	-55°C to 125°C (-57°F to 257°F)   | 
-| Measurement Accuracy Range    |	±0.5°C                            | 
-| Board Dimensions              |	18.5mm x 15mm (0.728in x 0.591in) | 
 
 ## Forbindelses Diagram
 Connect the power line (middle) and ground (-) on the module to +5V and GND on the Arduino respectively. Connect the signal pin (S) to pin 2 on the Arduino.
