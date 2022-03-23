@@ -31,7 +31,17 @@ Connect the Power line (middle) and ground (-) to +5 and GND respectively. Conne
 
 ![image](https://user-images.githubusercontent.com/44589560/159655307-632f49f5-b732-4694-9c95-af8a55e8666a.png)
 
-KY-015 ARDUINO CODE
+What is Relative Humidity?
+The DHT11 measures relative humidity. The relative humidity is the amount of water vapor in air vs. the saturation point of water vapor in the air. At the saturation point, water vapor starts to condense and accumulate on surfaces forming dew.
+
+The saturation point changes with air temperature. Cold air can hold less water vapor before it becomes saturated, and hot air can hold more water vapor before it becomes saturated.
+
+The formula to calculate relative humidity is:
+ ![image](https://user-images.githubusercontent.com/44589560/159673751-cfd97070-0a9f-4788-a663-b406d798d313.png)
+
+The relative humidity is expressed as a percentage. At 100% RH, condensation occurs, and at 0% RH, the air is completely dry.
+
+# KY-015 ARDUINO CODE
 The following sketch uses pin 8 on the Arduino to serially send and receive data from the KY-015 sensor. Serial communication is archived by sending specific series of high/low signals to the sensor and waiting for a response. Temperature and humidity data is read bit by bit and returned as an array of bytes.
 
 ```C++
