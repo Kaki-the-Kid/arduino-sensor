@@ -5,11 +5,11 @@ Måleområde: -55C til 125C (præcision 0,5C)
 
 | ![image](https://user-images.githubusercontent.com/44589560/159644018-432ba5e5-6568-4568-9634-edaa46780f6c.png) | ![image](https://user-images.githubusercontent.com/44589560/159644047-fb3b52cf-a021-46d0-993f-87e272fafd1a.png) | 
 
- KY-013 SPECIFICATIONS
+## KY-013 SPECIFICATIONS
 This module consist of a NTC thermistor, a 10 kΩ resistor, and 3 male header pins. The thermistor resistance varies according to its surrounding temperature. The value of resistance can be used to calculate the actual temperature.
 
-Operating Voltage	5V
-Temperature measurement range	-55°C to 125°C [-67°F to 257°F]
+| Operating Voltage | 5V |
+| Temperature measurement range | -55°C to 125°C [-67°F to 257°F] |
 Measurement Accuracy	±0.5°C
 CONNECTION DIAGRAM
 Connect module power line (middle) and ground (-) to 5V and GND on the Arduino respectively. Connect the module signal pin (S) to pin A0 on the Arduino.
