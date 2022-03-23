@@ -14,15 +14,15 @@ This module consist of a NTC thermistor, a 10 kΩ resistor, and 3 male header pi
 | Temperature measurement range   | -55°C to 125°C [-67°F to 257°F]        |
 | Measurement Accuracy   | ±0.5°C        |
 
-## Findelses Diagram
+## Forbindelses Diagram
 Connect module power line (middle) and ground (-) to 5V and GND on the Arduino respectively. Connect the module signal pin (S) to pin A0 on the Arduino.
 
 Some KY-013 have a different pin arrangement. Please check your board before connecting.
 
-KY-013	Arduino
-S	A0
-middle	5V
-–	GND
+| KY-013 | Arduino |
+| S      | A0      |
+| middle | 5V      |
+| –      | GND     |
 
 ![image](https://user-images.githubusercontent.com/44589560/159645474-7eebe8f3-0f2d-4ab6-ae0d-710596f25f94.png)
 
