@@ -10,5 +10,5 @@ void loop() {
   Serial.println(value, DEC); // light intensity
                 // high values for bright environment
                 // low values for dark environment
-  delay(100); 
+  delay(1000); 
 }
