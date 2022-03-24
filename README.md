@@ -36,6 +36,6 @@ Dette er en LDR-modstand, også kaldet fotocelle. Afhængigt af lysindfaldet æn
 KY-006 Passive Piezoelectric Buzzer modul kan producere en række lydtoner afhængigt af inputsignalets frekvens. Brug KY-012 Active Buzzer til at generere enkelttonelyde.
 
 ## KY-012 Active Piezo
-158 / 5.000
-Oversættelsesresultater
 KY-012 Active Buzzer-modulet producerer en enkelt-tone lyd, når det modtager et højt signal. For at producere forskellige toner, brug venligst KY-006 Passive Buzzer. 
+
+
