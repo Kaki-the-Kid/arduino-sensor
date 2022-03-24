@@ -29,3 +29,6 @@ Måleområde fugtighed: 20-90%
 <img style="width: 250px;" src="https://user-images.githubusercontent.com/44589560/159479784-88a55532-b05b-4219-ac0b-b2e9c8c55716.png" />
 
 Dette er en LDR-modstand, også kaldet fotocelle. Afhængigt af lysindfaldet ændres modstanden.
+
+# KY-006 Passive Piezo
+
