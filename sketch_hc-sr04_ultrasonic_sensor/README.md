@@ -24,6 +24,9 @@ Konfigurationsstiften på HC-SR04 er VCC (1), TRIG (2), ECHO (3) og GND (4). For
 
 ![image](https://user-images.githubusercontent.com/44589560/159899137-8d0b5c4d-c3ab-473c-9a66-011866b3d5fa.png)
 
+## Forbindelses diagram med display
+![image](https://user-images.githubusercontent.com/44589560/159900422-59245b94-f622-4160-b6ea-f7348b76bdff.png)
+
 # Funktion
 For at generere ultralyden skal vi indstille triggerstiften til en høj tilstand i 10 µs. Det vil udsende et 8-cyklus sonisk burst, som vil rejse med lydens hastighed, og det vil blive modtaget i Echo Pin. Echo Pin udsender den tid i mikrosekunder, som lydbølgen rejste.
 
