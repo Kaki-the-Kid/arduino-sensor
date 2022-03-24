@@ -38,4 +38,6 @@ KY-006 Passive Piezoelectric Buzzer modul kan producere en række lydtoner afhæ
 ## KY-012 Active Piezo
 KY-012 Active Buzzer-modulet producerer en enkelt-tone lyd, når det modtager et højt signal. For at producere forskellige toner, brug venligst KY-006 Passive Buzzer. 
 
+## Ultrasonic Sensor HC-SR04
+![image](https://user-images.githubusercontent.com/44589560/159875746-929b1205-7c8c-4cf1-a437-fe646c941e6b.png)
 
