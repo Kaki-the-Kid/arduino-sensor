@@ -9,6 +9,17 @@ Konfigurationsstiften på HC-SR04 er VCC (1), TRIG (2), ECHO (3) og GND (4). For
 ## Specifikationer
 ![image](https://user-images.githubusercontent.com/44589560/159899007-ae43fb3b-ab6a-4b67-955d-44e2f68c9138.png)
 
+| Spec      | Value |
+| ----------- | ----------- |
+| Operating Voltage      | 5V DC       |
+| Operating Current   | 15mA        |
+| Operating Frequency   | 40KHz        |
+| Min Range   | 2cm / 1 inch        |
+| Max Range   | 400cm / 13 feet        |
+| Accuracy   | 3mm        |
+| Measuring Angle   | <15°        |
+| Dimension   | 45 x 20 x 15mm      |
+
 ## Forbindelses diagram
 
 ![image](https://user-images.githubusercontent.com/44589560/159899137-8d0b5c4d-c3ab-473c-9a66-011866b3d5fa.png)
