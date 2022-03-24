@@ -31,4 +31,9 @@ Måleområde fugtighed: 20-90%
 Dette er en LDR-modstand, også kaldet fotocelle. Afhængigt af lysindfaldet ændres modstanden.
 
 ## KY-006 Passive Piezo
+![image](https://user-images.githubusercontent.com/44589560/159856367-31a8235e-b0d7-4c17-a035-f03578485d42.png)
+
+KY-006 Passive Piezoelectric Buzzer modul kan producere en række lydtoner afhængigt af inputsignalets frekvens. Brug KY-012 Active Buzzer til at generere enkelttonelyde.
+
+
 
