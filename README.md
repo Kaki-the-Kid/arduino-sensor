@@ -41,3 +41,8 @@ KY-012 Active Buzzer-modulet producerer en enkelt-tone lyd, når det modtager et
 ## Ultrasonic Sensor HC-SR04
 ![image](https://user-images.githubusercontent.com/44589560/159875746-929b1205-7c8c-4cf1-a437-fe646c941e6b.png)
 
+## KY-023 Dual Axis Joystick Module
+KY-032 Dual Axis Joystick-modulet bruger et biaksialt potentiometer til at styre X- og Y-aksen. Når den trykkes ned, aktiverer den en kontakt. Baseret på PS2-controllerens joystick, bruges den til at styre en lang række projekter fra fjernstyrede køretøjer til farve-LED'er.
+
+![image](https://user-images.githubusercontent.com/44589560/159905168-c2fb858e-84ad-44ca-9886-419741152c94.png)
+
