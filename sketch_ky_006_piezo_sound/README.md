@@ -1,2 +1,2 @@
-# KY-006 Piezo
+# KY-006 Piezo - Passive
 
